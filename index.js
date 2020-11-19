@@ -13,7 +13,7 @@ const tambahan = require("./lib/tambahan.js")
 const donasi = require("./lib/donasi.js");
 const info = require("./lib/info.js");
 /////////////////
-const BotName = 'GHIYATS NR☄'; 
+const BotName = 'GNR B0T☄'; 
 const instagram = 'https://instagram.com/ghytsnabielrmdhn'; 
 const kapanbotaktif = '24 JAM'; 
 const youtube = 'https://www.youtube.com/c/reuz_id';
