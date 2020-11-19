@@ -335,7 +335,7 @@ switch(bulan) {
 }
 var tampilTanggal = "TANGGAL: " + hari + ", " + tanggal + " " + bulan + " " + tahun;
 var tampilWaktu = "JAM: " + jam + ":" + menit + ":" + detik;
-conn.sendMessage(id, donasi.donasi(id, BotName, corohelp, tampilTanggal, tampilWaktu, instagram, telegram, youtube, kapanbotaktif) ,MessageType.text);
+conn.sendMessage(id, donasi.donasi(id, BotName, corohelp, tampilTanggal, tampilWaktu, instagram, youtube, kapanbotaktif) ,MessageType.text);
 }
 else if (text == '!info'){
 const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
