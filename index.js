@@ -15,7 +15,6 @@ const info = require("./lib/info.js");
 /////////////////
 const BotName = 'GHIYATS NR☄'; 
 const instagram = 'https://instagram.com/ghytsnabielrmdhn'; 
-const whatssap = ' 083892555732';
 const kapanbotaktif = '24 JAM'; 
 const youtube = 'https://www.youtube.com/c/reuz_id';
 //const grupch1 = 'belum ada grup'; 
