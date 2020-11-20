@@ -15,8 +15,8 @@ const info = require("./lib/info.js");
 /////////////////
 const BotName = 'GNR B0T'; 
 const instagram = 'https://instagram.com/ghytsnabielrmdhn'; 
-const kapanbotaktif = '24 JAM'; 
 const youtube = 'https://www.youtube.com/c/reuz_id';
+const kapanbotaktif = '24 JAM'; 
 //const grupch1 = 'belum ada grup'; 
 //const grupch2 = 'belum ada grup' ; 
 const
