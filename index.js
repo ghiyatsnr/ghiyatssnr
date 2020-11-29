@@ -245,6 +245,13 @@ axios.get(`https://st4rz.herokuapp.com/api/wiki?q=${text}`).then((res) => {
     conn.sendMessage(id, hasil ,MessageType.text);
 })
 }
+if (text.includes("!wiki")){
+const teks = text.replace(/!wiki /, "")
+axios.get(`https://st4rz.herokuapp.com/api/wiki?q=${teks}`).then((res) => {
+    let hasil = `Menurut Wikipedia [ _*Processing Sukses Bot LRF*_ ]:\n\n${res.data.result}`;
+    conn.sendMessage(id, hasil ,MessageType.text);
+})
+}
 if (text.includes("!sholat")){
   const teks = text.replace(/!sholat /, "")
   axios.get(`https://mhankbarbar.herokuapp.com/api/jadwalshalat?daerah=${teks}&apiKey=zFuV88pxcIiCWuYlwg57`).then ((res) =>{
