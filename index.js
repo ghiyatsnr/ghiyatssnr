@@ -238,13 +238,7 @@ axios.get(`https://st4rz.herokuapp.com/api/tiktok?url=${tictoc}`).then((res) => 
 conn.sendMessage(id, titoe, MessageType.text);
 })
 }
-if (text.includes("!wikia")){
-const teks = text.replace(/!wikia /, "")
-axios.get(`https://st4rz.herokuapp.com/api/wiki?q=${text}`).then((res) => {
-    let hasil = `Menurut Wikipedia:\n\n${res.data.result}`;
-    conn.sendMessage(id, hasil ,MessageType.text);
-})
-}
+
 if (text.includes("!wiki")){
 const teks = text.replace(/!wiki /, "")
 axios.get(`https://st4rz.herokuapp.com/api/wiki?q=${teks}`).then((res) => {
