@@ -242,7 +242,7 @@ conn.sendMessage(id, titoe, MessageType.text);
 if (text.includes("!wiki")){
 const teks = text.replace(/!wiki /, "")
 axios.get(`https://st4rz.herokuapp.com/api/wiki?q=${teks}`).then((res) => {
-    let hasil = `Menurut Wikipedia [ _*Processing Sukses Bot LRF*_ ]:\n\n${res.data.result}`;
+    let hasil = `Menurut Wikipedia [ _*Processing Sukses Bot GNR*_ ]:\n\n${res.data.result}`;
     conn.sendMessage(id, hasil ,MessageType.text);
 })
 }
